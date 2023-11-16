@@ -1,0 +1,315 @@
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	background: #ffffff;
+	color: #000;
+}
+
+.contact{
+	display: flex;
+	font-size: small;
+}
+
+.contact a{
+	font-size: small;
+}
+
+.contact img{
+    max-width: 1rem;
+    margin-right: 0.5rem;
+}
+
+#Czlonkowie{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(91, 91, 91);
+	border-width: 0.5rem 0;
+	border-color: #000;
+	border-style: solid;
+}
+
+#Czlonkowie div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#Czlonkowie div div{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	align-items: center;
+	padding: 5% 0%;
+}
+
+#Czlonkowie div div img{
+	max-width: 50%;
+	align-items: center;
+	padding: 5% 0%;
+
+}
+
+#Czlonkowie div div p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+
+
+}
+
+footer{
+	background-color: rgb(40, 77, 177);
+	height: 3rem;
+	width: 100%;
+	display: flex;
+	padding: 0 1rem;
+	color: #ffffff;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.footerclass{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.footerclass a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 2rem;
+}
+
+h1{
+	color: #fff;
+	margin: 0;
+	font-size: 120px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 10;
+	padding: 10rem;
+}
+
+h2{
+	color: #000000;
+	text-align: center;
+	padding-top: 5%;
+	margin: 0;
+}
+
+h3{
+	color: #000000;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+h5{
+	margin: 0%;
+}
+
+header{
+	 width: 100%;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 background-color: rgb(255, 255, 255);
+} 
+
+header a{
+    color: #000;
+    text-decoration: none;
+	display: flex;
+	align-self: center;
+	
+}
+
+header ul {
+	display: flex;
+	justify-content: center; 
+}
+
+header ul li{
+	margin: 0.5rem;
+}
+
+.info_od_dziekanow{
+	color: red;
+}
+
+.logo{ 
+	display: flex;
+	justify-self: center;
+	margin: 1em;
+}
+
+.logo img{
+    max-width: 5rem;
+}
+
+
+.name {
+	margin-top: 110px;
+	background-image: url(src/D7.jpeg);
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+	
+}
+
+nav{
+	background-color: rgb(40, 77, 177);
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	background-image: url(https://orig00.deviantart.net/5f81/f/2014/349/5/b/transparent_snow_gif_by_zhdara-d89z7ri.png);
+	z-index: 9999;
+
+	
+}
+
+.navi{
+	font-weight: bold;
+	color:rgb(255, 255, 255)
+}
+
+
+
+
+.sticky{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 0 2em;
+    display: flex;
+    align-items: center;
+	
+	
+}
+
+.card {
+    width: 300px;
+    padding: 32px 20px;
+    box-shadow: rgba(0, 0, 0, 0.533) 0px 1px 4px;
+    border-radius: 5px;
+	background-color: #fff;
+	margin: 2%;
+}
+  
+.card h2 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+  
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+  
+.card img {
+    max-width: 100%;
+    margin-bottom: 6px;
+}
+  
+.card a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.offerts {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+	padding: 0% 10% 5% 10%;
+
+}
+.onas{
+	background-color: #ddf2fb;
+	border-width: 0.5rem 0;
+	border-color: #000;
+	border-style: solid;
+}
+
+#Onas{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#Onas div{
+	flex-direction: column;
+}
+
+#Onas div p{
+	padding: 5% 15%;
+	font-size: larger;
+}
+
+#Projekty{
+	display: flex;
+	flex-direction: column;
+}
+
+#Projekty #carousel{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 5%;
+	height: 30rem;
+	align-items: center;
+}
+
+#Projekty #carousel img{
+	max-height: 80%;
+}
+
+#Projekty #carousel #opis{
+	max-width: 50%;
+	padding-left: 20%;
+}
+
+#Projekty #carousel #buttons{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 10% 0;
+	justify-content: space-evenly;
+}
+
+
