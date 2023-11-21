@@ -444,11 +444,16 @@ ul li {
 	
 	#Projekty #carousel #buttons{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
 		height: 100%;
 		padding: 10% 0;
 		justify-content: space-evenly;
 	}
+	#Projekty #carousel #buttons button{
+		margin: 1% 0%;
+	}
+
 	footer {
 		background-color: rgb(40, 77, 177);
 		flex-direction: column;
