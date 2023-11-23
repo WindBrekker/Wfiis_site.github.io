@@ -437,12 +437,12 @@ ul li {
 	}
 	
 	#Projekty #carousel #opis{
-		max-width: 90%;
-		padding: 5%;
-		background-color: #ab4545;
-		color: red;
-		box-shadow: #000 0px 1px 14px;
-
+		max-width: 50%;
+		margin-left: 10%;
+		background-color: #fff;
+		padding: 2%;
+		box-shadow: black 0px 1px 14px;
+		margin-right: 5%;
 	}
 	
 	#Projekty #carousel #buttons{
