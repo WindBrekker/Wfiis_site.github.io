@@ -209,12 +209,38 @@ header ul li {
     padding: 0 2% 2% 2%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
 }
 
 #Info p {
-    text-align: center;
+    text-align: left;
+	line-height: 11%;
+}
+
+#Info  ul{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: justify;
+	line-height: 1.5;
+
+
+}
+
+#Info p ul li{
+	display: flex;
+	justify-content:center;
+	text-align: justify;
+	flex-direction: column;
+}
+
+#Info a{
+	color: #000;
+	text-decoration: none;
+	margin-top: 2%;
+	text-align: justify;
+
 }
 
 .info_od_dziekanow {
@@ -265,13 +291,26 @@ nav {
     width: 100%;
 }
 
-ul {
+.sticky ul{
+	display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+
+.sticky ul li{
+	list-style: none;
+    margin: 0 2em;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
     display: flex;
     justify-content: center;
     padding: 0%;
 }
 
-ul li {
+nav ul li {
     list-style: none;
     margin: 0 2em;
     display: flex;
@@ -283,7 +322,12 @@ ul li {
     justify-content: space-evenly;
     width: 100%;
     margin: 0 auto;
-    padding: 0% 5% 5% 5%; /* Adjusted padding for responsiveness */
+    padding: 0% 5% 5% 5%; 
+}
+
+.offerts p{
+	text-align: center;
+	font-size: large;
 }
 
 .onas {
@@ -317,6 +361,10 @@ ul li {
 
 }
 
+#Onas img{
+	max-height: 40rem;
+}
+
 
 #Projekty{
 	display: flex;
@@ -338,17 +386,41 @@ ul li {
 }
 
 #Projekty #carousel #opis{
-	max-width: 50%;
-	padding-left: 20%;
+	max-width: 30%;
+	margin-left: 20%;
 	background-color: #fff;
+	padding: 2%;
+	box-shadow: rgba(0, 0, 0, 0.533) 0px 1px 4px;
+	height: 50%;
+	margin-right: 5%;
+	text-align: justify;
 }
 
 #Projekty #carousel #buttons{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	padding: 10% 0;
+	padding: 7% 0;
 	justify-content: space-evenly;
+}
+
+#Projekty #carousel #buttons button{
+	background-color: rgb(78, 116, 255);
+	color: #fff;
+	border-color: rgb(0, 29, 133);
+	border: 5%;
+	padding: 2%;
+	font-size: medium;
+}
+
+#Projekty #carousel #buttons button:hover{
+	color: #fff;
+
+
+
+	border-color: rgb(78, 116, 255);
+	border: 5%;
+	background-image: linear-gradient(to bottom right,rgb(0, 29, 133) , rgb(78, 116, 255) );
 }
 
 
@@ -366,7 +438,13 @@ ul li {
 		height: 0;
 		width: 0;
 		color: #fff;
+		opacity: 0;
 	}
+	
+	.contact{
+		padding-right: 1em;
+	}
+	
 	nav a {
 		color: #000;
 		text-decoration: none;
@@ -380,11 +458,21 @@ ul li {
 		background-image: url(https://orig00.deviantart.net/5f81/f/2014/349/5/b/transparent_snow_gif_by_zhdara-d89z7ri.png);
 		z-index: 9999;
 	}
+
 	
 	.navi {
 		font-weight: bold;
 		color: rgb(255, 255, 255);
 	}
+
+	.sticky ul li{
+		list-style: none;
+		margin: 1em 0;
+		display: flex;
+		align-items: center;
+	}
+
+
 	h1{
 		font-size: 5em;
 		color: #fff;
@@ -405,7 +493,7 @@ ul li {
 		margin: 2%;
 	}
 	#Onas img{
-		height: 10%;
+
 		width: 100%;
 	}
 	#Onas{
@@ -437,12 +525,13 @@ ul li {
 	}
 	
 	#Projekty #carousel #opis{
-		max-width: 50%;
-		margin-left: 10%;
+		max-width: 80%;
+		margin-left: 5%;
 		background-color: #fff;
 		padding: 2%;
-		box-shadow: black 0px 1px 14px;
+		box-shadow: rgba(0, 0, 0, 0.533) 0px 1px 4px;
 		margin-right: 5%;
+		
 	}
 	
 	#Projekty #carousel #buttons{
@@ -490,7 +579,7 @@ ul li {
 		width: 100%;
 	}
 	nav ul li {
-		padding: 5% 2%;
+		padding:2%;
 		margin: 0%;
 	}
 	
